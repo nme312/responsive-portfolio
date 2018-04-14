@@ -215,3 +215,72 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  .container {
+    max-width: 540px;
+    float: left;
+    padding-left: 70px;
+  }
+
+  #masthead {
+    height: 12%;
+  }
+
+  nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 10%;
+  }
+  
+  /* .main-section {
+    max-width: 477px;
+    height: 300px;
+    margin-left: 100px;
+    font-size: 12px;
+    padding-top: 20px
+  }
+  */
+
+  #logo {
+    font-size: 120%;
+    width: 35%;
+    height: 100%;
+    line-height: 361%;
+    padding-top: 2%;
+  } 
+
+  .auth-image {
+    float: left;
+    width: 26%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+  h1 {
+    padding-bottom: 5%;
+    font-size: 115%;
+    line-height: 55%;
+  }
+  
+  p {
+    font-size: 70%;
+    line-height: 150%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+  } 
+  
+  /* header {
+    max-width: 20%;
+    }  
+  */
+
+
+
+
+
+
+}
