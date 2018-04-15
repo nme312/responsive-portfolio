@@ -80,6 +80,7 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  padding-right: 50px;
 }
 
 nav a {
@@ -224,29 +225,21 @@ input[type=submit] {
   }
 
   #masthead {
-    height: 12%;
+    height: 10%;
   }
 
   nav {
     float: right;
-    margin-top: 25px;
-    margin-right: 10%;
+    margin-top: 2%;
+    margin-right: 5%;
+    font-size: 75%;
   }
-  
-  /* .main-section {
-    max-width: 477px;
-    height: 300px;
-    margin-left: 100px;
-    font-size: 12px;
-    padding-top: 20px
-  }
-  */
 
   #logo {
     font-size: 120%;
     width: 35%;
-    height: 100%;
-    line-height: 361%;
+    height: 73px;
+    line-height: 280%;
     padding-top: 2%;
   } 
 
@@ -273,14 +266,25 @@ input[type=submit] {
     margin-right: 0px;
   } 
   
-  /* header {
-    max-width: 20%;
-    }  
-  */
+  #contact-form li {
+    margin-bottom: 10px;
+  }
 
+  label, input[type=text], input[type=email], textarea {
+    display: block;
+    width: 100%;
+  }
 
+  input[type=text], input[type=email], textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
 
+  #message {
+    height: 35%;
+  }
 
-
-
+  
 }
