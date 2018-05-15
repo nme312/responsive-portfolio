@@ -76,7 +76,7 @@ h3 {
   width: 250px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 90px;
   color: #fff;
@@ -223,6 +223,11 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+#liri-app-img {
+  width: 274px;
+  height: 205px;
 }
 
 @media screen and (max-width: 980px) {
